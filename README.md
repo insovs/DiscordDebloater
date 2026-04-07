@@ -2,13 +2,9 @@
 
 <br>
 
-
-<br>
-
 **A PowerShell GUI tool to strip Discord of its bloat — reducing RAM usage, disabling telemetry, and cleaning unnecessary files from your installation.**
 
 <img width="926" height="705" alt="image" src="https://github.com/user-attachments/assets/84787516-c0c6-457a-b0e9-30bd9445888d" />
-
 
 <br>
 
@@ -23,7 +19,7 @@
 
 ## Overview
 
-Discord ships with a significant amount of overhead that most users never need — multiple language packs, noise suppression modules, auto-updater binaries, crash reporters, telemetry trackers, and GPU cache. This tool provides a clean GUI to selectively remove or disable these components without touching anything critical to Discord's core functionality.
+Discord ships with a significant amount of overhead most users never need — multiple language packs, noise suppression modules, auto-updater binaries, crash reporters, telemetry trackers, and GPU cache. This tool provides a clean GUI to selectively remove or disable these components without touching anything critical to Discord's core functionality.
 
 All operations run in isolated PowerShell runspaces with live progress feedback. Nothing is removed silently.
 
@@ -32,6 +28,7 @@ All operations run in isolated PowerShell runspaces with live progress feedback.
 ## Features
 
 ### Debloat
+
 Strips unused components from your Discord installation directory.
 
 - Removes old version folders (`app-x.x.x`) and keeps only the latest
@@ -46,11 +43,12 @@ Strips unused components from your Discord installation directory.
 - Disables Fullscreen Optimization (FSO) for the Discord executable
 
 ### Optimize Settings
+
 Writes a performance-focused `settings.json` to your Discord AppData folder.
 
 | Setting | Value | Effect |
 |---|---|---|
-| `enableHardwareAcceleration` | `false` | Reduces GPU overhead, improves CPU scheduling |
+| `enableHardwareAcceleration` | `false` | Reduces GPU overhead |
 | `SKIP_HOST_UPDATE` | `true` | Prevents update checks on every launch |
 | `DEVELOPER_MODE` | `true` | Exposes extra tooling |
 | `MINIMIZE_TO_TRAY` | `true` | Hides to tray on close |
@@ -59,6 +57,7 @@ Writes a performance-focused `settings.json` to your Discord AppData folder.
 | `START_MINIMIZED` | `false` | Launches in foreground |
 
 ### Clean Cache
+
 Clears accumulated runtime data from Discord's AppData folder.
 
 Targets: `Cache`, `Code Cache`, `GPUCache`, `ShaderCache`, `VideoDecodeStats`, `Cookies`, `Web Data`, `Databases`, `Session Storage`, `logs`, `Crashpad`, `debug`, `sentry`, `WidevineCdm`, `MediaFoundationWidevineCdm`, `blob_storage`, `CacheStorage`, `shared_proto_db`, and more.
@@ -118,9 +117,11 @@ The script will automatically re-launch itself with administrator privileges if 
 
 ## Notes
 
-- **After debloating**, create a new shortcut pointing directly to `Discord.exe` inside the active version folder. The auto-updater shortcut will no longer work if you removed `Update.exe`.
+- **After debloating**, create a new shortcut pointing directly to `Discord.exe` inside the active version folder. The auto-updater shortcut will no longer work if you removed `Update.exe`. A shortcut named `Discord Debloated.lnk` is automatically created on your Desktop.
 - **After cleaning cache**, some Discord UI preferences (font size, theme, etc.) may reset. Your account session will be preserved unless you opted into removing Local Storage.
 - **Game Presence / RPC**: removing this module disables rich presence broadcasting and may prevent joining servers that require Discord account linking (e.g. FiveM, some game launchers).
+- **Autostart**: the tool removes both registry `Run` keys and any Discord scheduled tasks. You can re-enable autostart from Discord's settings at any time.
+- **Backup**: if enabled, a full copy of the Discord installation folder is saved to your Desktop before any file is deleted.
 
 ---
 
