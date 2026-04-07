@@ -2,7 +2,6 @@
 
 <br>
 
-![Discord Debloat Tool](https://raw.githubusercontent.com/insovs/discord-debloat/main/assets/banner.svg)
 
 <br>
 
