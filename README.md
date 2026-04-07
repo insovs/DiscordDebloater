@@ -86,35 +86,18 @@ Accessible via the **Advanced** button in the Debloat panel.
 
 ---
 
-## Requirements
-
-- Windows 10 or 11
-- PowerShell 5.1 or later (included with Windows)
-- Administrator privileges (required for registry and scheduled task operations)
-
----
-
 ## Usage
 
-1. Download the `.ps1` script
-2. Right-click and select **Run with PowerShell**, or run from a terminal:
+Download `DiscordDebloatTool.ps1`, then **right-click** it → **Run with PowerShell**
 
-```powershell
-powershell -ExecutionPolicy Bypass -File DiscordDebloat.ps1
-```
+The script will automatically request administrator privileges.
 
-The script will automatically re-launch itself with administrator privileges if needed.
-
-> Discord is closed automatically before any operation begins. No manual steps required.
-
----
-
-## What is not touched
-
-- Your account, messages, servers, and files
-- Discord's core executable (`Discord.exe`)
-- The `discord_desktop_core`, `discord_modules`, `discord_utils`, and `discord_voice` modules
-- Your personal Discord settings (unless you explicitly apply the Settings optimization)
+> [!CAUTION]
+> If PowerShell scripts are blocked on your system, enable execution first:
+> ```powershell
+> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+> ```
+> Or use **[EnablePowerShellScript](https://github.com/insovs/EnablePowerShellScript)** for a one-click solution.
 
 ---
 
