@@ -8,7 +8,6 @@ Runs entirely through **PowerShell**. Everything is safe and **non-destructive**
 
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?style=flat-square&logo=powershell&logoColor=white)](https://github.com/PowerShell/PowerShell)
 [![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D4?style=flat-square&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
-[![License](https://img.shields.io/badge/License-Personal%20Use-555?style=flat-square)](#license)
 [![Version](https://img.shields.io/badge/Version-1.1-6b7280?style=flat-square)](#)
 
 ---
