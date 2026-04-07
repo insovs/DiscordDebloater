@@ -7,6 +7,9 @@
 
 **A PowerShell GUI tool to strip Discord of its bloat — reducing RAM usage, disabling telemetry, and cleaning unnecessary files from your installation.**
 
+<img width="926" height="705" alt="image" src="https://github.com/user-attachments/assets/84787516-c0c6-457a-b0e9-30bd9445888d" />
+
+
 <br>
 
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?style=flat-square&logo=powershell&logoColor=white)](https://github.com/PowerShell/PowerShell)
