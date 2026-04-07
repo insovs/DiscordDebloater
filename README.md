@@ -1,17 +1,19 @@
 <div align="center">
 
-<br>
+# Discord Optimizer
 
-### A PowerShell GUI tool to strip Discord of its bloat — reducing RAM usage, disabling telemetry, and cleaning unnecessary files from your installation.
-
-<img width="926" height="705" alt="image" src="https://github.com/user-attachments/assets/84787516-c0c6-457a-b0e9-30bd9445888d" />
-
-<br>
+Removes **bloat**, unused modules, language packs, and resource-intensive features.<br>
+Reduces Discord's **RAM and CPU usage** without breaking core functionality.<br>
+Runs entirely through **PowerShell**. Everything is safe and **non-destructive**.
 
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?style=flat-square&logo=powershell&logoColor=white)](https://github.com/PowerShell/PowerShell)
 [![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D4?style=flat-square&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
 [![License](https://img.shields.io/badge/License-Personal%20Use-555?style=flat-square)](#license)
 [![Version](https://img.shields.io/badge/Version-9.1-6b7280?style=flat-square)](#)
+
+---
+
+<img width="926" height="705" alt="image" src="https://github.com/user-attachments/assets/84787516-c0c6-457a-b0e9-30bd9445888d" />
 
 </div>
 
@@ -120,6 +122,7 @@ The script will automatically re-launch itself with administrator privileges if 
 - **After debloating**, create a new shortcut pointing directly to `Discord.exe` inside the active version folder. The auto-updater shortcut will no longer work if you removed `Update.exe`. A shortcut named `Discord Debloated.lnk` is automatically created on your Desktop.
 - **After cleaning cache**, some Discord UI preferences (font size, theme, etc.) may reset. Your account session will be preserved unless you opted into removing Local Storage.
 - **Game Presence / RPC**: removing this module disables rich presence broadcasting and may prevent joining servers that require Discord account linking (e.g. FiveM, some game launchers).
+- **Autostart**: the tool removes both registry `Run` keys and any Discord scheduled tasks. You can re-enable autostart from Discord's settings at any time.
 - **Backup**: if enabled, a full copy of the Discord installation folder is saved to your Desktop before any file is deleted.
 
 ---
