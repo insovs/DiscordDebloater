@@ -106,14 +106,8 @@ Accessible via the **Advanced** button in the Debloat panel.
 
 ---
 
-## License
-
-For personal use only. Redistribution is prohibited.
-
----
-
 <div align="center">
 
-`github.com/insovs/discord-debloat`
+`[github.com/insovs/discord-debloat](https://github.com/insovs/Discord-Optimization)`
 
 </div>
