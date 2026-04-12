@@ -24,6 +24,19 @@ It is designed so that Discord consumes only what is strictly necessary, reducin
 
 ---
 
+## Usage
+
+Download `DiscordDebloatTool.ps1`, then **right-click** it → **Run with PowerShell**
+
+> [!CAUTION]
+> If PowerShell scripts are blocked on your system, enable execution first:
+> ```powershell
+> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+> ```
+> Or use **[EnablePowerShellScript](https://github.com/insovs/EnablePowerShellScript)** for a one-click solution.
+
+---
+
 ## Features
 
 ### Debloat
@@ -79,19 +92,6 @@ Accessible via the **Advanced** button in the Debloat panel.
 | Disable autostart | On | Removes registry Run keys and scheduled tasks |
 | Disable FSO | On | Prevents Windows from overriding exclusive fullscreen mode |
 | Remove junk files | On | `.sig`, SwiftShader, Vulkan, d3dcompiler, unused Chromium paks |
-
----
-
-## Usage
-
-Download `DiscordDebloatTool.ps1`, then **right-click** it → **Run with PowerShell**
-
-> [!CAUTION]
-> If PowerShell scripts are blocked on your system, enable execution first:
-> ```powershell
-> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-> ```
-> Or use **[EnablePowerShellScript](https://github.com/insovs/EnablePowerShellScript)** for a one-click solution.
 
 ---
 
