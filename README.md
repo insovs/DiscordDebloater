@@ -25,12 +25,6 @@ It is designed so that Discord consumes only what is strictly necessary, reducin
 
 ---
 
-<img width="926" height="705" alt="image" src="https://github.com/user-attachments/assets/84787516-c0c6-457a-b0e9-30bd9445888d" />
-
-</div>
-
----
-
 ## Usage
 
 Download `DiscordDebloatTool.ps1`, then **right-click** it → **Run with PowerShell**
