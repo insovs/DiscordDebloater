@@ -1,6 +1,7 @@
 <div align="center">
-<img width="1365" height="520" alt="image" src="https://github.com/user-attachments/assets/9ed23249-1b3c-4bfa-aa4e-1100b6e1cb23" />
+<img width="1365" height="520" alt="image" src="(https://github.com/user-attachments/assets/b667fe6b-f7c4-460a-9d70-19ce695b71bb)" />
 </div>
+
 
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?style=flat-square&logo=powershell&logoColor=white)](https://github.com/PowerShell/PowerShell)
 [![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D4?style=flat-square&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
