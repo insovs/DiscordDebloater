@@ -80,8 +80,7 @@ Optional: remove `Local Storage` (signs you out, but frees additional space).
 ---
 
 ## 🛠️ Advanced Options
-
-Accessible via the **Advanced** button in the Debloat panel.
+Accessible via the **Advanced** button in the Debloat panel. Each option can be individually toggled — only apply what you need.
 
 | Option | Default | Notes |
 |---|---|---|
