@@ -17,9 +17,9 @@
 
 ## Overview
 
-Discord ships with a significant amount of overhead most users never need — multiple language packs, noise suppression modules, auto-updater binaries, crash reporters, telemetry trackers, and GPU cache. This tool provides a clean GUI to selectively remove or disable these components without touching anything critical to Discord's core functionality.
+Discord ships with a significant amount of overhead that most users never need — including multiple language packs, noise suppression modules, auto-updater binaries, crash reporters, telemetry trackers, and GPU cache. This tool provides a clean GUI to selectively remove or disable these components without affecting anything critical to Discord's core functionality.
 
-All operations run in isolated PowerShell runspaces with live progress feedback. Nothing is removed silently.
+It is designed so that Discord consumes only what is strictly necessary, reducing its overall resource usage and making it significantly lighter.
 
 ---
 
