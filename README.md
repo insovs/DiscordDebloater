@@ -101,7 +101,7 @@ Accessible via the **Advanced** button in the Debloat panel.
 
 ## Notes
 - **Backup**: if enabled, a full copy of the Discord installation folder is saved to your Desktop before any file is deleted.
-- **After debloating**, create a new shortcut pointing directly to `Discord.exe` inside the active version folder. The auto-updater shortcut will no longer work if you removed `Update.exe`. A shortcut named `Discord Debloated.lnk` is automatically created on your Desktop.
+- **After debloating:** a `Discord Debloated.lnk` shortcut is auto-created on your Desktop pointing directly to `Discord.exe` — bypassing update checks on every launch.
 - **After cleaning cache**, some Discord UI preferences (font size, theme, etc.) may reset. Your account session will be preserved unless you opted into removing Local Storage.
 - **Autostart**: the tool removes both registry `Run` keys and any Discord scheduled tasks. You can re-enable autostart from Discord's settings at any time.
 
