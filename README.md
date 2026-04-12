@@ -40,7 +40,7 @@ Download `DiscordDebloatTool.ps1`, then **right-click** it → **Run with PowerS
 
 ## Features
 
-### Debloat
+### Debloat Section
 
 Strips unused components from your Discord installation directory.
 
@@ -55,7 +55,7 @@ Strips unused components from your Discord installation directory.
 - Disables Discord autostart via registry Run keys and scheduled tasks
 - Disables Fullscreen Optimization (FSO) for the Discord executable
 
-### Optimize Settings
+### Optimize Settings Section
 
 Writes a performance-focused `settings.json` to your Discord AppData folder.
 
@@ -69,7 +69,7 @@ Writes a performance-focused `settings.json` to your Discord AppData folder.
 | `IS_MAXIMIZED` | `true` | Starts maximized |
 | `START_MINIMIZED` | `false` | Launches in foreground |
 
-### Clean Cache
+### Clean Cache Section
 
 Clears accumulated runtime data from Discord's AppData folder.
 
