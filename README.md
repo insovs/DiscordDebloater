@@ -19,7 +19,7 @@ It is designed so that Discord consumes only what is strictly necessary, reducin
 <details>
 <summary><b>► Show Preview Tool</b></summary>
 
-![DiscordDebloatTool](https://github.com/user-attachments/assets/fc0ebfd6-42ff-4f73-87dd-8d3f05a6938c)
+![DiscordDebloatTool](https://github.com/user-attachments/assets/6d9c1b26-ab89-49a2-965b-779497e42f36)
 
 </details>
 
