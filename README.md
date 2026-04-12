@@ -1,4 +1,3 @@
-<div align="center">
 <img width="1365" height="520" alt="image" src="https://github.com/user-attachments/assets/fe605325-18c2-43f4-ba58-430fe891b6aa" />
   
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?style=flat-square&logo=powershell&logoColor=white)](https://github.com/PowerShell/PowerShell)
