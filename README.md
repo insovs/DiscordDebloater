@@ -25,7 +25,7 @@ It is designed so that Discord consumes only what is strictly necessary, reducin
 
 ---
 
-## Usage
+## 📥 Usage
 
 Download `DiscordDebloatTool.ps1`, then **right-click** it → **Run with PowerShell**
 
@@ -38,7 +38,7 @@ Download `DiscordDebloatTool.ps1`, then **right-click** it → **Run with PowerS
 
 ---
 
-## Features
+## ⚡ Features
 
 ### Debloat Section
 
@@ -79,7 +79,7 @@ Optional: remove `Local Storage` (signs you out, but frees additional space).
 
 ---
 
-## Advanced Options
+## 🛠️ Advanced Options
 
 Accessible via the **Advanced** button in the Debloat panel.
 
@@ -99,7 +99,7 @@ Accessible via the **Advanced** button in the Debloat panel.
 
 ---
 
-## Notes
+## 📌 Notes
 - **Backup**: if enabled, a full copy of the Discord installation folder is saved to your Desktop before any file is deleted.
 - **After debloating:** a `Discord Debloated.lnk` shortcut is auto-created on your Desktop pointing directly to `Discord.exe` — bypassing update checks on every launch.
 - **After cleaning cache**, some Discord UI preferences (font size, theme, etc.) may reset. Your account session will be preserved unless you opted into removing Local Storage.
