@@ -10,7 +10,7 @@
 ---
 </div>
 
-## Overview
+## 🚀 Overview
 
 Discord ships with a significant amount of overhead that most users never need — including multiple language packs, noise suppression modules, auto-updater binaries, crash reporters, telemetry trackers, and GPU cache. This tool provides a clean GUI to selectively remove or disable these components without affecting anything critical to Discord's core functionality.
 
