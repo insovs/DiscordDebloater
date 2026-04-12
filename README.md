@@ -1,4 +1,5 @@
 <div align="center">
+<img width="1365" height="520" alt="image" src="https://github.com/user-attachments/assets/fe605325-18c2-43f4-ba58-430fe891b6aa" />
 
 # Discord Optimizer
 
