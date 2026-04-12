@@ -95,12 +95,13 @@ Accessible via the **Advanced** button in the Debloat panel.
 | Remove junk files | On | `.sig`, SwiftShader, Vulkan, d3dcompiler, unused Chromium paks |
 
 > [!CAUTION]
-> **Game Presence / RPC**: removing this module disables rich presence broadcasting and may prevent joining servers that require Discord account linking (e.g. FiveM, some game launchers).
+> **Game Presence / RPC**: removing this module disables rich presence broadcasting and may prevent joining servers that require Discord account linking (e.g. FiveM, some game launchers). Consider enabling the **backup option** before proceeding.
 
 ---
 
 ## 📌 Notes
 - **Backup**: if enabled, a full copy of the Discord installation folder is saved to your Desktop before any file is deleted.
+- **Two versions**: by creating a backup, you can run both a debloated and an original version of Discord.
 - **After debloating:** a `Discord Debloated.lnk` shortcut is auto-created on your Desktop pointing directly to `Discord.exe` — bypassing update checks on every launch.
 - **After cleaning cache**, some Discord UI preferences (font size, theme, etc.) may reset. Your account session will be preserved unless you opted into removing Local Storage.
 
