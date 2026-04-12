@@ -86,8 +86,6 @@ Accessible via the **Advanced** button in the Debloat panel.
 
 Download `DiscordDebloatTool.ps1`, then **right-click** it → **Run with PowerShell**
 
-The script will automatically request administrator privileges.
-
 > [!CAUTION]
 > If PowerShell scripts are blocked on your system, enable execution first:
 > ```powershell
