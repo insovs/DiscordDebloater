@@ -17,7 +17,7 @@ Discord ships with a significant amount of overhead that most users never need �
 It is designed so that Discord consumes only what is strictly necessary, reducing its overall resource usage and making it significantly lighter.
 
 <details>
-<summary><b>► Show Preview Tool</b></summary>
+<summary><b>👁️ Show Preview Tool</b></summary>
 
 ![DiscordDebloatTool](https://github.com/user-attachments/assets/46f442e1-215f-409d-a290-cc7a165c0d54)
 
