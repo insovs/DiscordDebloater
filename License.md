@@ -1,10 +1,8 @@
-MIT License — Non-Commercial, No-Redistribution Variant
+MIT License — Non-Commercial, No-Redistribution Variant.
 
-Copyright (c) 2025 insovs/insopti (https://guns.lol/inso.vs)
+Copyright (c) 2025 insovs/insopti
 
-────────────────────────────────────────────────────────────────
- ABOUT THIS PROJECT
-────────────────────────────────────────────────────────────────
+.ABOUT THIS PROJECT
 Discord Debloat & Optimization Tool is a personal utility designed
 to reduce Discord's RAM and CPU usage by removing unused modules,
 unnecessary language packs, telemetry data, crash reporters, and
@@ -15,7 +13,6 @@ rendering, auto-updaters, and background processes.
 The goal is to give users back control over what runs on their machine,
 resulting in a faster, lighter, and more privacy-respecting Discord
 installation.
-────────────────────────────────────────────────────────────────
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to use
@@ -43,7 +40,6 @@ following conditions:
    THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING
    FROM THE USE OF THE SOFTWARE.
 
-────────────────────────────────────────────────────────────────
 For redistribution requests or commercial licensing, contact the author
 via GitHub: https://github.com/insovs/Discord-Optimization
 Discord Support: https://discord.com/invite/fayeECjdtb
