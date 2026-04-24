@@ -6,7 +6,7 @@
 [![Discord](https://img.shields.io/badge/Support-Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/fayeECjdtb)
 [![Preview](https://img.shields.io/badge/Video-Preview-FF0000?logo=youtube&logoColor=white)](https://youtu.be/9zvIpOmYuK8)
   
-<img width="1365" height="520" alt="image" src="https://github.com/user-attachments/assets/b667fe6b-f7c4-460a-9d70-19ce695b71bb" />
+<img width="1672" height="941" alt="DiscordOptimizerBanner" src="https://github.com/user-attachments/assets/5eea094e-79e5-4dff-984e-baf7fca6f4d9" />
 
 ---
 </div>
