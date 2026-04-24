@@ -3,6 +3,7 @@ MIT License — Non-Commercial, No-Redistribution Variant.
 Copyright (c) 2025 insovs/insopti
 
 ABOUT THIS PROJECT
+
 Discord Debloat & Optimization Tool is a personal utility designed
 to reduce Discord's RAM and CPU usage by removing unused modules,
 unnecessary language packs, telemetry data, crash reporters, and
