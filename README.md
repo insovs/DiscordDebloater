@@ -19,7 +19,8 @@ It is designed so that Discord consumes only what is strictly necessary, reducin
 
 <details>
 <summary><b>👁️ Show Preview Tool</b></summary>
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5b48a9a3-274f-479a-9883-0496bef02fd1" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/817e9fca-e858-4a81-80ea-5031b82c375b" />
+
 
 
 
