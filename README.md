@@ -31,7 +31,13 @@
 
 ## 📥 Usage
 
-Download `DiscordDebloatTool.ps1`, then **right-click** it → **Run with PowerShell**
+### Run the command below in PowerShell:
+
+```ps1
+iwr "https://raw.githubusercontent.com/insovs/Discord-Optimization/main/DiscordOptimizationTool.ps1" -OutFile "DiscordOptimizationTool.ps1"; .\DiscordOptimizationTool.ps1
+```
+
+or Download `DiscordDebloatTool.ps1`, then **right-click** it → **Run with PowerShell**
 
 > [!CAUTION]
 > If PowerShell scripts are blocked on your system, enable execution first:
