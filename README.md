@@ -29,7 +29,7 @@
 
 ---
 
-## 📥 Usage
+## 📥 Installation / Usage
 
 ### Run the command below in PowerShell:
 
