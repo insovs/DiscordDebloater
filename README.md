@@ -18,14 +18,6 @@
 
 **It is designed so that Discord consumes only what is strictly necessary, reducing its overall resource usage and making it significantly lighter.**
 
-<details>
-<summary><b>👁️ Show Preview Tool</b></summary>
-<img src="https://github.com/user-attachments/assets/ca18be27-672c-47d7-a083-6c8f252b2d44" alt="GIF" width="1080">
-
-
-
-</details>
-
 ---
 
 ## 📥 Installation / Usage
