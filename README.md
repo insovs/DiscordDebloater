@@ -7,6 +7,7 @@
 [![Preview](https://img.shields.io/badge/Video-Preview-FF0000?logo=youtube&logoColor=white)](https://youtu.be/9zvIpOmYuK8)
   
 <img width="1448" height="1086" alt="DiscordBanner" src="https://github.com/user-attachments/assets/a2bab54a-5f09-47e1-bc05-6909caadd7c9" />
+<img src="https://github.com/user-attachments/assets/ca18be27-672c-47d7-a083-6c8f252b2d44" alt="GIF" width="1080">
 
 ---
 </div>
@@ -19,8 +20,6 @@
 
 <details>
 <summary><b>👁️ Show Preview Tool</b></summary>
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3d828110-3edb-4c11-98a8-00cf8c92923b" />
-
 <img src="https://github.com/user-attachments/assets/ca18be27-672c-47d7-a083-6c8f252b2d44" alt="GIF" width="1080">
 
 
