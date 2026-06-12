@@ -40,6 +40,55 @@ or Download `DiscordDebloatTool.ps1`, then **right-click** it → **Run with Pow
 
 ---
 
+## ❓ FAQ
+
+<details>
+<summary><strong>Is this safe to use?</strong></summary>
+
+Yes. The tool only removes files that Discord does not need to function (old versions, unused language packs, cache, telemetry modules). Nothing related to your account, messages, or servers is touched. You can enable the **backup option** in Advanced settings before running anything, which saves a full copy of your Discord folder to the Desktop.
+
+</details>
+
+<details>
+<summary><strong>My antivirus flagged the script — is it a virus?</strong></summary>
+
+No. PowerShell scripts that interact with the filesystem are commonly flagged as false positives by heuristic-based antivirus engines, especially when they modify program files or registry keys. This script contains no malicious code. You can verify this yourself:
+
+- 📄 **The script is fully open-source** — read every line on this page before running it
+- 🔍 **VirusTotal scan:** [View latest scan results →](https://www.virustotal.com/gui/url/YOUR_SCAN_LINK_HERE)
+
+If your antivirus blocks execution, you may need to add a temporary exception or use:
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+</details>
+
+<details>
+<summary><strong>I removed Game Presence / RPC and now FiveM / my game launcher can't link my account.</strong></summary>
+
+The Game Presence module (`discord_game_sdk`) is required for some games (FiveM, certain launchers) to link your Discord account. To restore it: re-install Discord, or restore from the backup saved on your Desktop if you had the backup option enabled.
+
+</details>
+
+<details>
+<summary><strong>Does this work on Discord PTB and Canary?</strong></summary>
+
+Yes. The tool auto-detects which Discord variants are installed (Stable, PTB, Canary) and displays them with color-coded status indicators. You can run it on any detected variant.
+
+</details>
+
+<details>
+<summary><strong>Can I restore my original Discord after debloating?</strong></summary>
+
+Yes, if you enabled the **backup option** before running. A full copy of your Discord installation is saved to your Desktop. To restore: close Discord, delete the current installation folder, rename the backup to the original folder name, and relaunch.
+
+Alternatively, a clean reinstall from [discord.com](https://discord.com) will restore everything.
+
+</details>
+
+---
+
 ## ⚡ Features
 
 ### Debloat Section
