@@ -7,6 +7,8 @@
 [![Preview](https://img.shields.io/badge/Video-Preview-FF0000?logo=youtube&logoColor=white)](https://youtu.be/9zvIpOmYuK8)
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c2282021-d881-4048-9269-d41104444a87" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3d335414-c0ce-4683-a4b3-2db87b9bf6f7" />
+
 <img src="https://github.com/user-attachments/assets/ca18be27-672c-47d7-a083-6c8f252b2d44" alt="GIF" width="1080">
 
 ---
