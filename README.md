@@ -6,8 +6,7 @@
 [![Discord](https://img.shields.io/badge/Support-Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/fayeECjdtb)
 [![Preview](https://img.shields.io/badge/Video-Preview-FF0000?logo=youtube&logoColor=white)](https://youtu.be/9zvIpOmYuK8)
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c2282021-d881-4048-9269-d41104444a87" />
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3d335414-c0ce-4683-a4b3-2db87b9bf6f7" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e691b5cc-331f-4a8a-aa47-1f44fa3b51b9" />
 
 <img src="https://github.com/user-attachments/assets/ca18be27-672c-47d7-a083-6c8f252b2d44" alt="GIF" width="1080">
 
